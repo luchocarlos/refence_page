@@ -1,0 +1,43 @@
+body{
+    background-color: #FAFAF9; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container1{
+    height: 405px;
+    width: 510px;
+}
+
+.icon_initial{
+    background-color: #F5C044;
+    height: 57px;
+    width: 57px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center !important;
+    margin-top: 10px !important;
+}
+
+
+.container2{
+    background-color: #fff;
+    height: 170px;
+    width: 321px;
+}
+
+.container3{
+    background-color: #FFF;
+    height: 170px;
+    width: 321px;
+}
+
+.logo_google{
+    width: 70px;
+    height: 20px;
+}
+
+.logo_meta{
+    width: 70px;
+    height: 20px;
+}
