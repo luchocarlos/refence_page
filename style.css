@@ -2,21 +2,47 @@ body{
     background-color: #FAFAF9; 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+;
 }
 
 .container1{
     height: 405px;
     width: 510px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 .icon_initial{
     background-color: #F5C044;
-    height: 57px;
-    width: 57px;
-    font-size: 18px;
+    padding-top: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 50px;
+    border-radius: 100%;
     justify-content: center;
     text-align: center !important;
     margin-top: 10px !important;
+}
+
+.title{
+   font-size: 36px;
+}
+
+.description{
+    color:#52525A;
+    font-size: 20px;
+    width: 450px !important;
+}
+
+li{
+    list-style: none;
+    color:#52525A;
+    font-size: 14px; 
+}
+
+.done{
+    height: 14px !important;
+    width: 14px !important;
 }
 
 
@@ -24,20 +50,56 @@ body{
     background-color: #fff;
     height: 170px;
     width: 321px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: -150px;
 }
+ 
+.logo_google{
+    width: 70px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.title_2{
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.description_2{
+    margin-left: 40px;
+    color:#52525A;
+    font-size: 16px;
+    width: 210px;
+}
+
 
 .container3{
     background-color: #FFF;
     height: 170px;
     width: 321px;
-}
-
-.logo_google{
-    width: 70px;
-    height: 20px;
+    border-radius: 10px;
+    margin-top: 350px;
 }
 
 .logo_meta{
+    margin-top: 20px;
+    margin-left: 40px;
     width: 70px;
     height: 20px;
+}
+
+.title_3{
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.description_3{
+    margin-left: 40px;
+    color:#52525A;
+    font-size: 16px;
+    width: 220px;
 }
